@@ -49,6 +49,15 @@ AddEventHandler()
 ```
 so the uses are similar!
 
+You can use these functions like that
+```lua
+RegisterNetCallbackEventfunction(eventName, handler) end
+AddCallbackEventHandler(eventName, handler) end
+TriggerCallbackEvent(eventName, arg1, arg2, ..., callback) end
+TriggerClientCallbackEvent(eventName, arg1, arg2, ..., callback) end
+TriggerServerCallbackEvent(eventName, arg1, arg2, ..., callback) end
+```
+
 Here is an example of a script using Event Callback:
 ```lua
 --client.lua
