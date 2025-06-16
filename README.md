@@ -49,7 +49,7 @@ AddEventHandler()
 ```
 so the uses are similar!
 
-You can use these functions like that
+You can use Event Callback functions like that
 ```lua
 RegisterNetCallbackEventfunction(eventName, handler) end
 AddCallbackEventHandler(eventName, handler) end
