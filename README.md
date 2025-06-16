@@ -1,6 +1,6 @@
-# Event Callback
+# Event Callback Using State Bags
 
-Event Callback is a **FiveM/RedM** script to **facilitate** the **creation** of event callbacks
+Event Callback is a **FiveM/RedM** script to **facilitate** the **creation** of event callbacks using **State Bags**
 
 ## Installation
 
