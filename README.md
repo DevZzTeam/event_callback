@@ -9,19 +9,19 @@ Using **cmd**:
 cd "YOUR_SERVER_PATH/resources"
 git clone https://github.com/DevZzTeam/event_callback.git
 ```
-Or you can just download the reposite and put it in your **resources** folder
+Or you can just download the repository and put it in your **resources** folder
 
-add this line in your server.cfg
+add this line to your server.cfg
 ```lua
 ensure event_callback
 ```
 
 ## Usage
-In your fivem script add this line in your fxmanifest.lua
+In your fivem script add this line to your fxmanifest.lua
 ```lua
 dependency 'event_callback'
 ```
-Now we can start, in your client file add these lines
+Now we can start. In your client file, add these lines
 ```lua
 RegisterNetCallbackEvent = function(eventName, handler) exports.event_callback:RegisterNetCallbackEvent(eventName, handler) end
 AddCallbackEventHandler = function(eventName, handler) exports.event_callback:AddCallbackEventHandler(eventName, handler) end
@@ -32,7 +32,7 @@ these lines are created to facilitate the management of event callbacks, but you
 ```lua
 exports.event_callback:FUNCTION_NAME(eventName, arguments)
 ```
-Now, in your server file add these lines
+Now. In your server file, add these lines
 ```lua
 RegisterNetCallbackEvent = function(eventName, handler) exports.event_callback:RegisterNetCallbackEvent(eventName, handler) end
 AddCallbackEventHandler = function(eventName, handler) exports.event_callback:AddCallbackEventHandler(eventName, handler) end
